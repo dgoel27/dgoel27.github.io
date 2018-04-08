@@ -173,7 +173,7 @@ body {
   color: yellow;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
   margin: 0;
-  padding: 2vw;
+  padding: 7vw;
 }
 
 .container2 a button {
@@ -189,7 +189,37 @@ body {
   letter-spacing: 1px;
   box-shadow: 0px 5px 20px 5px white;
   background-color: black;
-  margin-bottom: 5vh;
+  margin-bottom: 8vh;
+  cursor: pointer;
+}
+
+.container3 {
+  height: 25%;
+}
+
+.container3 ul li {
+  display: inline;
+}
+
+.container3 .tech-icon {
+  width: 10vw;
+  margin-right: 2vw;
+}
+
+.container3 a button {
+  display: block;
+  background : none;
+  border: none;
+  border-radius: 2px;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 6px;
+  box-shadow: 0px 5px 20px 0px black;
+  margin-bottom: 8vh;
   cursor: pointer;
 }
 
@@ -201,12 +231,7 @@ body {
 }
 
 .card5 {
-  margin: 4vw;
-  margin-top: 0;
-  border: 1px solid #2c2c2c;
-  border-radius: 10px;
-  box-shadow: 0px 5px 20px 5px #FF9900;
-  padding: 4.5vw;
+  padding: 5vw;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 }
 
@@ -270,6 +295,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 20px;
+  margin-top: 4vh;
+  margin-bottom: 8vh;
   width: 100%;
+}
+  .container2 {
+    font-size: 1rem;
+  }
+
 }
