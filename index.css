@@ -183,13 +183,14 @@ body {
   color: white;
   margin-left: auto;
   margin-right: auto;
-  padding: 15px;
-  font-size: 20px;
+  padding: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 1px;
   box-shadow: 0px 5px 20px 5px white;
   background-color: black;
   margin-bottom: 8vh;
+  margin-top: 2vh;
   cursor: pointer;
 }
 
@@ -197,11 +198,14 @@ body {
   height: 25%;
 }
 
-.container3 ul li {
-  display: inline;
+.container3 .tech-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin : 8vw;
 }
 
-.container3 .tech-icon {
+.tech-group .tech-icon {
   width: 10vw;
   margin-right: 2vw;
 }
@@ -214,11 +218,11 @@ body {
   color: black;
   margin-left: auto;
   margin-right: auto;
-  padding: 15px;
-  font-size: 20px;
+  padding: 1rem;
+  font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 6px;
-  box-shadow: 0px 5px 20px 0px black;
+  box-shadow: 0px 10px 30px 0px black;
   margin-bottom: 8vh;
   cursor: pointer;
 }
@@ -230,17 +234,17 @@ body {
   background-size: cover;
 }
 
-.card5 {
+.card3 {
   padding: 5vw;
   text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
 }
 
-.card5 .heading2 {
+.card3 .heading2 {
   color: #FF9900;
   margin-bottom: 5vh;
 }
 
-.card5 button {
+.card3 button {
   display: block;
   background: none;
   border: none;
@@ -257,7 +261,7 @@ body {
   transition: box-shadow 0.3s linear 0.1s;
 }
 
-.card5 button:hover {
+.card3 button:hover {
   cursor: pointer;
   box-shadow: 0 3px 20px 0 #FF9900;
 }            
@@ -283,8 +287,8 @@ body {
   }
 
   .banner2 {
-  flex-direction: column;
-  margin : 2vw;
+    flex-direction: column;
+    margin : 2vw;
   }
 
   .contact {
@@ -292,15 +296,21 @@ body {
   }
 
   .icon-group {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 4vh;
-  margin-bottom: 8vh;
-  width: 100%;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 4vh;
+    margin-bottom: 8vh;
+    width: 100%;
+  }
+
   .container2 {
     font-size: 1rem;
   }
 
+  .tech-group .tech-icon {
+    width: 20vw;
+    justify-content: space-around;
+    align-content: space-around;
+  }
 }
